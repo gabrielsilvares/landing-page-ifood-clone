@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ea1d2c;
+  --primary-dark: #c2121f;
+  --secondary: #434343;
+  --dark: #000000;
+  --dark-2: #3e3e3e;
+  --dark-3: #a6a6a6;
+  --white: #fff;
+  --light: #f7f7f7;
+  --light-2: #f2f2f2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--white);
+  color: var(--secondary);
+  font-family: "SulSans", Helvetica, sans-serif;
+}
+
+body, input, button, textarea, a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}

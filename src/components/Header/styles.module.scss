@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 8.8rem 1fr 11.4rem 10.4rem;
+  padding: 4rem 3.2rem;
+  column-gap: 2rem;
+  align-items: center;
+  max-width: 127.8rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  width: 8rem;
+  height: 4.3rem;
+}

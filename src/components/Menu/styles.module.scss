@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+}
+
+.darkLink {
+  padding: 0 2rem;
+  font-weight: 400;
+  color: var(--dark-2);
+  text-decoration: none;
+  line-height: 2rem;
+}
